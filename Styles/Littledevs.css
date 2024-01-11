@@ -1,0 +1,63 @@
+
+h2{
+    text-align: justify, center;
+    font-size: larger;
+}
+.Description{
+    font-size: larger;
+    width: 200;
+    height: 200;
+    margin:20px 50px;
+    padding:30px;
+    border: solid blueviolet
+}
+.container{
+    background-color: brown;
+}
+form {
+    background-color: silver;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 600px;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+button{
+background-color: rgb(104, 10, 90);
+color: bisque;
+padding:10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+align-self: center;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    
+
+    width:auto;
+    height: auto;
+    margin:10px;
+    padding:15px;
+    border-radius:10px;
+    background-color: white;
+}
